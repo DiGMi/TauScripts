@@ -11,7 +11,7 @@ function extractUrl(innerHtml)
 {
 	var re = new RegExp('\'mms://msvideo.tau.ac.il/CMS/(.+?\.wmv)\'');
 	var captures = re.exec(innerHtml);
-	var url = 'https://ivideo.tau.ac.il/files/' + captures[1];
+	var url = 'https://video.tau.ac.il/files/' + captures[1];
 	return url;
 }
 
